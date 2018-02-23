@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-    if phrase.is_upper? == true
+    if phrase.is_upper?
       return "NO, NOT SINCE 1938!"
       binding.pry
     elsif phrase.is_upper? && phrase == "I LOVE YOU GRANDMA!"
